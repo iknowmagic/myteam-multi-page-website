@@ -21,7 +21,7 @@
     "sass-mq": "^5.0.1",
     "vue": "^2.6.12",
     "vue-meta": "^2.4.0",
-    "vue-router": "^3.4.3",
+    "vue-router": "^3.5.1",
     "vuelidate": "^0.7.5",
     "vuex": "^3.5.1",
     "vuex-pathify": "^1.4.1"

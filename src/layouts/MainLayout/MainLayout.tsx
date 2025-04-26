@@ -34,7 +34,7 @@ function MobileMenu({ isVisible, onClose }: MobileMenuProps) {
             className="cursor-pointer"
             aria-label="Close menu"
           >
-            <img src="/images/icon-close.svg" alt="Close" />
+            <img src="/assets/images/icon-close.svg" alt="Close" />
           </button>
         </div>
 
@@ -85,7 +85,7 @@ export default function MainLayout() {
           className="w-32 lg:w-40 h-8 lg:h-10"
           aria-label="MyTeam - Home"
         >
-          <img src="/images/logo.svg" alt="MyTeam logo" />
+          <img src="/assets/images/logo.svg" alt="MyTeam logo" />
         </Link>
 
         {/* Mobile menu trigger */}
@@ -95,7 +95,7 @@ export default function MainLayout() {
           aria-label="Open menu"
           aria-expanded={menuVisible}
         >
-          <img src="/images/icon-hamburger.svg" alt="Menu" />
+          <img src="/assets/images/icon-hamburger.svg" alt="Menu" />
         </button>
 
         {/* Desktop navigation */}
@@ -135,7 +135,7 @@ export default function MainLayout() {
           {/* Footer logo and links */}
           <div className="flex flex-col items-center md:items-start">
             <img
-              src="/images/logo.svg"
+              src="/assets/images/logo.svg"
               alt="MyTeam logo"
               className="h-6 lg:h-10"
             />
@@ -176,21 +176,21 @@ export default function MainLayout() {
               className="hover:opacity-70 mx-2 transition-opacity cursor-pointer"
               aria-label="Facebook"
             >
-              <img src="/images/icon-facebook.svg" alt="Facebook" />
+              <img src="/assets/images/icon-facebook.svg" alt="Facebook" />
             </a>
             <a
               href="#"
               className="hover:opacity-70 mx-2 transition-opacity cursor-pointer"
               aria-label="Pinterest"
             >
-              <img src="/images/icon-pinterest.svg" alt="Pinterest" />
+              <img src="/assets/images/icon-pinterest.svg" alt="Pinterest" />
             </a>
             <a
               href="#"
               className="hover:opacity-70 mx-2 transition-opacity cursor-pointer"
               aria-label="Twitter"
             >
-              <img src="/images/icon-twitter.svg" alt="Twitter" />
+              <img src="/assets/images/icon-twitter.svg" alt="Twitter" />
             </a>
           </div>
           <div className="mt-4 md:mt-0 text-white/60">

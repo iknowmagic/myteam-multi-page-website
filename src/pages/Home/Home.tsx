@@ -145,7 +145,7 @@ export default function Home() {
             <p className="text-sm italic">Product Manager of Bookmark</p>
             <div className="mt-4">
               <img
-                src="/images/avatar-kady.jpg"
+                src="/assets/images/avatar-kady.jpg"
                 alt="Kady Baker's portrait"
                 className="border-[#c4fffe] border-2 rounded-full w-16 h-16"
               />
@@ -168,7 +168,7 @@ export default function Home() {
             <p className="text-sm italic">Founder of Manage</p>
             <div className="mt-4">
               <img
-                src="/images/avatar-aiysha.jpg"
+                src="/assets/images/avatar-aiysha.jpg"
                 alt="Aiysha Reese's portrait"
                 className="border-[#c4fffe] border-2 rounded-full w-16 h-16"
               />
@@ -191,7 +191,7 @@ export default function Home() {
             <p className="text-sm italic">Co-founder of MyPhysio</p>
             <div className="mt-4">
               <img
-                src="/images/avatar-arthur.jpg"
+                src="/assets/images/avatar-arthur.jpg"
                 alt="Arthur Clarke's portrait"
                 className="border-[#c4fffe] border-2 rounded-full w-16 h-16"
               />

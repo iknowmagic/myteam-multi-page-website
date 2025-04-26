@@ -35,10 +35,10 @@ function Director({ avatar, name, title, quote }: DirectorProps) {
           <p className="mt-4 mb-6">&quot;{quote}&quot;</p>
           <div className="flex space-x-4">
             <a href="#" className="hover:opacity-70 transition-opacity">
-              <img src="/images/icon-twitter.svg" alt="Twitter" />
+              <img src="/assets/images/icon-twitter.svg" alt="Twitter" />
             </a>
             <a href="#" className="hover:opacity-70 transition-opacity">
-              <img src="/images/icon-linkedin.svg" alt="LinkedIn" />
+              <img src="/assets/images/icon-linkedin.svg" alt="LinkedIn" />
             </a>
           </div>
         </>
@@ -172,27 +172,27 @@ export default function About() {
         {/* Client logos */}
         <div className="flex md:flex-row flex-col md:flex-wrap md:justify-center items-center md:gap-12 lg:gap-20">
           <img
-            src="/images/logo-the-verge.png"
+            src="/assets/images/logo-the-verge.png"
             alt="The Verge"
             className="mt-14 md:mt-0 max-w-36 md:max-w-32 lg:max-w-40"
           />
           <img
-            src="/images/logo-jakarta-post.png"
+            src="/assets/images/logo-jakarta-post.png"
             alt="Jakarta Post"
             className="mt-14 md:mt-0 max-w-40 md:max-w-36 lg:max-w-44"
           />
           <img
-            src="/images/logo-the-guardian.png"
+            src="/assets/images/logo-the-guardian.png"
             alt="The Guardian"
             className="mt-14 md:mt-0 max-w-36 md:max-w-32 lg:max-w-40"
           />
           <img
-            src="/images/logo-tech-radar.png"
+            src="/assets/images/logo-tech-radar.png"
             alt="Tech Radar"
             className="mt-14 md:mt-0 max-w-36 md:max-w-32 lg:max-w-40"
           />
           <img
-            src="/images/logo-gadgets-now.png"
+            src="/assets/images/logo-gadgets-now.png"
             alt="Gadgets Now"
             className="mt-14 md:mt-0 max-w-24 md:max-w-20 lg:max-w-24"
           />

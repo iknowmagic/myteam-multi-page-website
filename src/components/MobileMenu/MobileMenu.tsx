@@ -22,7 +22,7 @@ export default function MobileMenu({ isVisible, onClose }: MobileMenuProps) {
         {/* Menu header with close button */}
         <div className="flex justify-end p-6">
           <button className="cursor-pointer" onClick={onClose}>
-            <img src="/images/icon-close.svg" alt="close" />
+            <img src="/assets/images/icon-close.svg" alt="close" />
           </button>
         </div>
 

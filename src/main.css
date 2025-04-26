@@ -1,0 +1,9 @@
+@import 'tailwindcss';
+@plugin "@tailwindcss/typography";
+@plugin "daisyui";
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}

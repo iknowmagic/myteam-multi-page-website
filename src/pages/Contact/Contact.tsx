@@ -72,8 +72,8 @@ export default function Contact() {
       {/* Contact Section */}
       <section className="relative lg:flex lg:justify-between lg:items-start px-6 md:px-24 pb-24 md:pb-24 lg:pb-24">
         {/* Background patterns */}
-        <div className="hidden md:block top-0 -left-24 left-0 absolute bg-[url('/images/bg-pattern-about-2-contact-1.svg')] bg-no-repeat w-52 h-52" />
-        <div className="-right-24 right-0 -bottom-24 bottom-0 absolute bg-[url('/images/bg-pattern-contact-2.svg')] bg-no-repeat w-52 h-52" />
+        <div className="hidden md:block top-0 -left-24 left-0 absolute bg-[url('/assets/images/bg-pattern-about-2-contact-1.svg')] bg-no-repeat w-52 h-52" />
+        <div className="-right-24 right-0 -bottom-24 bottom-0 absolute bg-[url('/assets/images/bg-pattern-contact-2.svg')] bg-no-repeat w-52 h-52" />
 
         {/* Contact Information */}
         <div className="lg:pt-5 md:pl-6 lg:w-1/2">
@@ -87,7 +87,7 @@ export default function Contact() {
           <div className="space-y-6 mt-10 md:mt-6 lg:mt-8 mb-8 md:mb-10">
             {/* Topic 1 */}
             <div className="flex items-center">
-              <div className="bg-[url('/images/icon-person.svg')] bg-no-repeat bg-left w-20 h-20" />
+              <div className="bg-[url('/assets/images/icon-person.svg')] bg-no-repeat bg-left w-20 h-20" />
               <div className="font-bold text-lg">
                 The quality of our talent network
               </div>
@@ -95,7 +95,7 @@ export default function Contact() {
 
             {/* Topic 2 */}
             <div className="flex items-center">
-              <div className="bg-[url('/images/icon-cog.svg')] bg-no-repeat bg-left w-20 h-20" />
+              <div className="bg-[url('/assets/images/icon-cog.svg')] bg-no-repeat bg-left w-20 h-20" />
               <div className="font-bold text-lg">
                 Usage & implementation of our software
               </div>
@@ -103,7 +103,7 @@ export default function Contact() {
 
             {/* Topic 3 */}
             <div className="flex items-center">
-              <div className="bg-[url('/images/icon-chart.svg')] bg-no-repeat bg-left w-20 h-20" />
+              <div className="bg-[url('/assets/images/icon-chart.svg')] bg-no-repeat bg-left w-20 h-20" />
               <div className="font-bold text-lg">
                 How we help drive innovation
               </div>

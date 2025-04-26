@@ -211,7 +211,7 @@ export default function Contact() {
           <div>
             <button
               type="submit"
-              className="bg-white hover:bg-[#79c8c7] px-8 py-3 rounded-full font-semibold text-[#004047] text-lg transition-colors"
+              className="bg-white hover:bg-[#79c8c7] px-8 py-3 rounded-full font-semibold text-[#004047] text-lg transition-colors cursor-pointer"
             >
               submit
             </button>

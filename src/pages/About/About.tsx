@@ -45,7 +45,7 @@ function Director({ avatar, name, title, quote }: DirectorProps) {
       )}
 
       <button
-        className={`absolute -bottom-7 w-14 h-14 rounded-full flex items-center justify-center ${
+        className={`absolute -bottom-7 w-14 h-14 rounded-full flex items-center justify-center cursor-pointer ${
           expanded
             ? 'bg-[#79c8c7] hover:bg-[#f67e7e]'
             : 'bg-[#f67e7e] hover:bg-[#79c8c7]'
@@ -212,7 +212,7 @@ export default function About() {
         </h2>
 
         <Link to="/contact">
-          <button className="hover:bg-[#012f34] px-8 py-2 border-[#012f34] border-2 rounded-full font-semibold text-[#012f34] hover:text-white text-lg transition-colors">
+          <button className="hover:bg-[#012f34] px-8 py-2 border-[#012f34] border-2 rounded-full font-semibold text-[#012f34] hover:text-white text-lg transition-colors cursor-pointer">
             contact us
           </button>
         </Link>

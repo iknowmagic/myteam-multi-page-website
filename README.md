@@ -20,9 +20,9 @@ Responsive multi-page website for showcasing a team. Features an expandable Abou
 
 ## 📱 Responsive Previews
 
-| Desktop                 | Tablet                 | Phone                 |
-| ----------------------- | ---------------------- | --------------------- |
-| ![](readme/desktop.png) | ![](readme/tablet.png) | ![](readme/phone.png) |
+| Desktop                         | Tablet                         | Phone                         |
+| ------------------------------- | ------------------------------ | ----------------------------- |
+| ![](/public/readme/desktop.png) | ![](/public/readme/tablet.png) | ![](/public/readme/phone.png) |
 
 ---
 

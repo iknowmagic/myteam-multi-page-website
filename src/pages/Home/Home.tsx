@@ -10,11 +10,11 @@ export default function Home() {
       <section className="relative lg:flex lg:justify-between lg:items-end px-6 md:px-40 pt-0 md:pt-8 lg:pt-12 pb-44 md:pb-56 lg:pb-64">
         {/* Background patterns */}
         <div
-          className="hidden lg:block top-12 top-14 -left-24 left-0 absolute bg-[url('/assets/images/bg-pattern-home-1.svg')] bg-no-repeat bg-left-top w-52 h-52"
+          className="hidden lg:block top-14 -left-24 absolute bg-[url('/assets/images/bg-pattern-home-1.svg')] bg-no-repeat bg-left-top w-52 h-52"
           aria-hidden="true"
         />
         <div
-          className="bottom-0 absolute bg-[url('/assets/images/bg-pattern-home-2.svg')] bg-no-repeat bg-center bg-bottom w-full h-25"
+          className="bottom-0 absolute bg-[url('/assets/images/bg-pattern-home-2.svg')] bg-no-repeat bg-bottom w-full h-25"
           aria-hidden="true"
         />
 
@@ -41,7 +41,7 @@ export default function Home() {
       <section className="relative lg:flex lg:justify-between bg-[#012f34] px-6 md:px-24 lg:px-40 py-16 md:py-24 lg:py-36">
         {/* Background Pattern */}
         <div
-          className="top-0 -right-24 right-0 absolute bg-[url('/assets/images/bg-pattern-home-3.svg')] bg-no-repeat bg-right-top w-52 h-52"
+          className="top-0 -right-24 absolute bg-[url('/assets/images/bg-pattern-home-3.svg')] bg-no-repeat bg-right-top w-52 h-52"
           aria-hidden="true"
         />
 

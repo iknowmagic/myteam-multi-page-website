@@ -34,7 +34,7 @@ export default function MobileMenu({ isVisible, onClose }: MobileMenuProps) {
             onClick={onClose}
             aria-label="Close menu"
           >
-            <img src="/images/icon-close.svg" alt="Close" />
+            <img src="/assets/images/icon-close.svg" alt="Close" />
           </button>
         </div>
 

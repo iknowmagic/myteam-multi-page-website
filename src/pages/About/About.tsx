@@ -56,7 +56,7 @@ export default function About() {
       <section className="relative lg:items-start px-6 pb-24 md:pb-30 lg:pb-36">
         {/* Background pattern */}
         <div
-          className="-right-24 right-0 -bottom-24 bottom-0 absolute bg-[url('/assets/images/bg-pattern-about-1-mobile-nav-1.svg')] bg-no-repeat bg-right-bottom w-52 h-52"
+          className="-right-24 -bottom-24 absolute bg-[url('/assets/images/bg-pattern-about-1-mobile-nav-1.svg')] bg-no-repeat bg-right-bottom w-52 h-52"
           aria-hidden="true"
         />
 
@@ -83,7 +83,7 @@ export default function About() {
       <section className="relative bg-[#004047] px-6 md:px-24 lg:px-10 py-24 md:py-28 lg:py-36 text-center">
         {/* Background patterns */}
         <div
-          className="-top-24 top-0 -left-24 left-0 absolute bg-[url('/assets/images/bg-pattern-about-2-contact-1.svg')] bg-no-repeat w-52 h-52"
+          className="-top-24 -left-24 absolute bg-[url('/assets/images/bg-pattern-about-2-contact-1.svg')] bg-no-repeat w-52 h-52"
           aria-hidden="true"
         />
         <div
@@ -114,7 +114,7 @@ export default function About() {
       <section className="relative flex flex-col items-center bg-[#012f34] px-6 py-24 md:py-28 lg:py-36">
         {/* Background pattern */}
         <div
-          className="-top-24 top-0 -left-24 left-0 absolute bg-[url('/assets/images/bg-pattern-about-4.svg')] bg-no-repeat w-52 h-52"
+          className="-top-24 -left-24 absolute bg-[url('/assets/images/bg-pattern-about-4.svg')] bg-no-repeat w-52 h-52"
           aria-hidden="true"
         />
 

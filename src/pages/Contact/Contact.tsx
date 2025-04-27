@@ -72,8 +72,8 @@ export default function Contact() {
       {/* Contact Section */}
       <section className="relative lg:flex lg:justify-between lg:items-start px-6 md:px-24 pb-24 md:pb-24 lg:pb-24">
         {/* Background patterns */}
-        <div className="hidden md:block top-0 -left-24 left-0 absolute bg-[url('/assets/images/bg-pattern-about-2-contact-1.svg')] bg-no-repeat w-52 h-52" />
-        <div className="-right-24 right-0 -bottom-24 bottom-0 absolute bg-[url('/assets/images/bg-pattern-contact-2.svg')] bg-no-repeat w-52 h-52" />
+        <div className="hidden md:block top-0 -left-24 absolute bg-[url('/assets/images/bg-pattern-about-2-contact-1.svg')] bg-no-repeat w-52 h-52" />
+        <div className="-right-24 -bottom-24 absolute bg-[url('/assets/images/bg-pattern-contact-2.svg')] bg-no-repeat w-52 h-52" />
 
         {/* Contact Information */}
         <div className="lg:pt-5 md:pl-6 lg:w-1/2">
